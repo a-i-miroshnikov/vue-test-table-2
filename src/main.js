@@ -1,0 +1,13 @@
+import { createApp } from "vue";
+import "bootstrap/dist/css/bootstrap.css";
+import App from "./App.vue";
+import router from "./router";
+import store from "./store";
+import "@fortawesome/fontawesome-free/css/all.css";
+import "datatables.net-bs5/css/dataTables.bootstrap5.min.css";
+import "jquery";
+import "@popperjs/core";
+import "datatables.net/js/jquery.dataTables.js";
+import "datatables.net-bs5/js/dataTables.bootstrap5.min.js";
+import "bootstrap/dist/js/bootstrap.js";
+createApp(App).use(store).use(router).mount("#app");
