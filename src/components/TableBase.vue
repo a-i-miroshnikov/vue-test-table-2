@@ -73,7 +73,7 @@ $(document).ready(function () {
         next: "Далее",
       },
     },
-    scrollY: 200,
+    scrollY: true,
     scrollX: true,
     lengthMenu: [
       [5, 10, 15, -1],
